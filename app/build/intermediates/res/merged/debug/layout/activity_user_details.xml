@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    tools:context="com.what_the_hack.bsby.AppointmentConfirmation">
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/name"
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/aadhar_no"
+        android:text="Aadhar No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/dob"
+        android:text="DOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/eco_group"
+        android:text="Economical Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/search_hos"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="SEARCH NEARBY HOSPITALS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

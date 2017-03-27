@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    tools:context="com.what_the_hack.bsby.AppointmentConfirmation">
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/appoint_id"
+        android:text="Appointment ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/hos_name"
+        android:text="Hospital Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/doc_name"
+        android:text="Doctor Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/pat_name"
+        android:text="Patient Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/disease"
+        android:text="Disease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/room_no"
+        android:text="Room No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="PRINT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

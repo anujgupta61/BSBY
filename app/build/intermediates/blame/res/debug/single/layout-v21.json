@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/anuj/AndroidStudioProjects/BSBY/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/anuj/.android/build-cache/dc4705a05f731d07a6c96b08e0dd351f22192337/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/anuj/AndroidStudioProjects/BSBY/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/anuj/.android/build-cache/dc4705a05f731d07a6c96b08e0dd351f22192337/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/anuj/AndroidStudioProjects/BSBY/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/anuj/.android/build-cache/dc4705a05f731d07a6c96b08e0dd351f22192337/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/anuj/AndroidStudioProjects/BSBY/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/anuj/.android/build-cache/a48ecc8c8bdd3f06aa7092f3e49d38194dafbfce/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/anuj/AndroidStudioProjects/BSBY/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/anuj/.android/build-cache/dc4705a05f731d07a6c96b08e0dd351f22192337/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

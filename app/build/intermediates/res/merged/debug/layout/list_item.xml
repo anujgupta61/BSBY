@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="75dp">
+
+    <LinearLayout
+        android:layout_weight="0.75"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="Hospital Name"
+            android:id="@+id/hsp_name"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="Hospital Address"
+            android:id="@+id/hsp_addr"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:orientation="vertical"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="75dp">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="Distance"
+            android:id="@+id/dist"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="Times"
+            android:id="@+id/time"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
